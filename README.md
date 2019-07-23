@@ -6,10 +6,11 @@
 ## Instructions
 
 ### You will be building a full-stack API with the following resources based off of a coworking space. In addition to the specified fields, you should include the _id, created_at, and updated_at fields.
-Unit: The Unit resource is a generic term for a rentable space. 
-kind: (Required) The kind of unit available. Only the following options should be allowed: "seat", "desk", "small office", "large office", "floor".
-floor: (Required) An integer which represents the floor the rentable unit is on.
-special_monthly_offer: An optional integer field. If filled in, represents a special deal that the company will be paying in cents. For example, if the unit is being leased for $600/mo, this field would be 600000.
+
+* Unit: The Unit resource is a generic term for a rentable space. 
+  * kind: (Required) The kind of unit available. Only the following options should be allowed: "seat", "desk", "small office", "large office", "floor".
+  * floor: (Required) An integer which represents the floor the rentable unit is on.
+  * special_monthly_offer: An optional integer field. If filled in, represents a special deal that the company will be paying in cents. For example, if the unit is being leased for $600/mo, this field would be 600000.
 company: The Company resource, listed below.
 Company: The company that is leasing the rentable unit. 
 name: (Required) The name of the company.
