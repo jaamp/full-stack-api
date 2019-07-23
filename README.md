@@ -1,8 +1,8 @@
 # Exercise: Full Stack Coworking
 ## This project will test your ability to build a RESTful API from scratch. This project should utilize the following technologies:
-..* Node.js
-..* MongoDB
-..* Mongoose
+* Node.js
+* MongoDB
+* Mongoose
 ## Instructions
 
 ### You will be building a full-stack API with the following resources based off of a coworking space. In addition to the specified fields, you should include the _id, created_at, and updated_at fields.
