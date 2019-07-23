@@ -1,10 +1,11 @@
-### Exercise: Full Stack Coworking
-# This project will test your ability to build a RESTful API from scratch. This project should utilize the following technologies:
-Node.js
-MongoDB
-Mongoose
+# Exercise: Full Stack Coworking
+## This project will test your ability to build a RESTful API from scratch. This project should utilize the following technologies:
+..* Node.js
+..* MongoDB
+..* Mongoose
 ## Instructions
-You will be building a full-stack API with the following resources based off of a coworking space. In addition to the specified fields, you should include the _id, created_at, and updated_at fields.
+
+### You will be building a full-stack API with the following resources based off of a coworking space. In addition to the specified fields, you should include the _id, created_at, and updated_at fields.
 Unit: The Unit resource is a generic term for a rentable space. 
 kind: (Required) The kind of unit available. Only the following options should be allowed: "seat", "desk", "small office", "large office", "floor".
 floor: (Required) An integer which represents the floor the rentable unit is on.
